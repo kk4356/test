@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tasks Tracker</title>
+    <link rel="stylesheet" type="text/css" media="all" href="css/styles.css" />
+    <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/datepicker.js"></script>-->
+    <script type="text/javascript" src="js/jquery.min.js"></script> 
+    <script type="text/javascript" src="js/jquery.watermark.js"></script>   
+    <script type="text/javascript" src="js/autogrow.jquery.js"></script> 
+    <script type="text/javascript" src="js/dtt-authenticated.js"></script> 
+    <script type ="text/javascript">      
+    </script>
+  </head>
+  <body>
+    <div id="common-root">
+    </div>
+    <div id='container'>
+      <div id='header'>
+        <div id='header-text'>
+          <h1> Welcome to Daily Tasks Tracker. </h1>
+        </div>        
+        <div id='logout'>
+          Admin : Krishna
+        </div>        
+        <!--</div> -->        
+      </div>
+      <!-- end <div id='header'> -->      
+      <div class="header-image"><img src ="images/tracker_img.png"></img></div>
+      <div id='main'>
+        <div id="tab-content">
+          <div id ="left-container">
+            <button class ="btn gray-btn future-btn">future</button>
+            <button class ="btn gray-btn future-btn">future</button>
+          </div>
+          <div id ="right-container">
+            <div class="text">Task Id</div>
+            <input type ="textbox" id="task-Id"/>
+            <div class="text">Task title</div>
+            <input type ="textbox" id="title-text"/>
+            <div class="text">Task Description</div>
+            <input type ="textbox" id="desc-text"/>
+            <div class="text">Task Status</div>
+            <div class="field-select">      
+						  	<select id="task-status">
+                  <option value ="open">Open</option>
+                  <option value ="closed">Closed</option>
+                  <option value ="progress">In Progress</option>
+                </select>									
+						</div>
+            <button class ="btn orange-btn" id ="submit" onclick ="getValues();">Save</button>
+            <button class ="btn gray-btn" id ="cancel" onclick ="clearAll()" style ="width:100px;">Cancel</button>
+          </div>
+        </div>
+      </div>
+      <div id ="dtt-footer">&copy;All Rights Reserved to GrandVin Software Solutions Pvt Ltd.</div>
+      <!-- end <div id='footer'> -->
+    </div>
+    <!-- end <div id='container'> -->
+  </body>
+</html>
