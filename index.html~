@@ -6195,7 +6195,7 @@ function clearAll() {
         <!--</div> -->        
       </div>
       <!-- end <div id='header'> -->      
-      <div class="header-image"><a href="http://imgur.com/rnJ3y"><img src="http://i.imgur.com/rnJ3y.png" alt="Tasks Tracker" title="Hosted by imgur.com" /></a></div>
+      <div class="header-image"><a href="http://imgur.com/rnJ3y"><img src="http://i.imgur.com/rnJ3y.png" alt="Tasks Tracker" /></a></div>
       <div id='main'>
         <div id="tab-content">
           <div id ="left-container">
